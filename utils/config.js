@@ -2,7 +2,7 @@ const pjson = require('../package.json')
 
 const config = {
   exampleConfig: parse(
-    process.env.EXAMPLE_CONFIG || 'not have `EXAMPLE_CONFIG` env',
+    process.env.NUXT_ENV_EXAMPLE_CONFIG || 'not have `EXAMPLE_CONFIG` env',
   ),
   features: {},
   version: 'v' + pjson.version,

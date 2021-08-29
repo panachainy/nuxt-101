@@ -1,5 +1,10 @@
 <template>
-  <div>{{ $appConfig.version }}</div>
+  <div>
+    <p>{{ $appConfig.exampleConfig }}</p>
+    <div>
+      {{ $appConfig.version }}
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
