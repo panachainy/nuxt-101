@@ -1,5 +1,7 @@
 # nuxt-101
 
+[![CodeFactor](https://www.codefactor.io/repository/github/panachainy/nuxt-101/badge)](https://www.codefactor.io/repository/github/panachainy/nuxt-101)
+
 ## Build Setup
 
 ```bash
